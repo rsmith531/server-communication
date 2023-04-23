@@ -1,0 +1,148 @@
+###############################################################################
+###################                                        ####################
+###################          client.c console log          ####################
+###################                                        ####################
+###############################################################################
+
+socket successfully created...
+connected to the server...
+
+sending message to server...
+message sent...
+awaiting response...
+from server: ACK
+time to send 1500 characters: 0.000177 seconds              <-- 1500 characters
+
+sending message to server...
+message sent...
+awaiting response...
+from server: ACK
+time to send 5200 characters: 0.000309 seconds              <-- 5200 characters
+
+sending message to server...
+message sent...
+awaiting response...
+from server: ACK
+time to send 750 characters: 0.000086 seconds                <-- 750 characters
+
+Process finished with exit code 0
+
+###############################################################################
+###################                                        ####################
+###################          server.c console log          ####################
+###################                                        ####################
+###############################################################################
+
+socket successfully created...
+socket successfully bound...
+server listening...
+server accepts the client...
+
+from client: t3VpvjYr7sJv1xOg89n1IDY48tPRCXxy8kXQjSExm2we31x6YlaTTl0BYoY9+rEaeIyxygRNRTvj
+PTh8CSg4ZBGLTQEnj03zcy9frllEysDGS0dJLGwQRaTUBhYYihCUr7cRGgCcvN9ApPRBOq6y8uCH
+Ff7U3p4w5c8MSFZibRaThAIGdnfiQVA5dRM1oKbPPtZF5YPRmSwp6jraGCUGaCzFYdYgqx3ymxUO
+l0C0NOJlocUeGb0vxIygB6ejTkiAQdlRZWuokfUNi+hd/yDc0XhPPkr0KGcL08RWbUhIeMRgDoCF
+8q/r8iI0Cucj87UyquZicVLdfnmNcZY1CvOoZS1yU+XzbQuSPy+spdynhxmEpx0ri2eLiy/sqgYE
+BiQoxO3Hq+/7cOQSwsLqYfK3qPImcypDuGdVq41eXUjz/O2SxPbcKBnO0jfwyJcMUMjo+WInVUJW
+ny0W0tHqs46T0sb29QFc/QuumVQk2y4Bi5HOePLw9xk11MYBoFemG+LF0aiReA9Zfci7WdRsg09B
+GUWo2v3rHiV3yTrFiV8RSuGghG3mDaiIMLo52KtnfShgnA1nKuhcaIDgHUjows8Sk1f9c2teMO3P
+Nej9sqjRMfby95ZhHl3LX+YB6K8cmJOZWrzPNuM3E2m8bEO1GB7DvMSkf4t7thsE1UUjumn+oxgx
+ofn2vZlaAUBmB1vRCqMEv8cl8KgbfnPx8V9JLwuPYPpGdo5G4rjKUAbVcH//FiumESFF4RydAjbr
+OuxpIhuo1xcy1IILyfK5AMGrmb2PMkLReZ/DYTooEu/GaSqlAja4Dkvyvw0EdulVeCwm4cfeKfPc
+QSGq+KeJWfQAxcgC73cyNA991vImdOkjrh59Emj+ns+a69viO605EA/KmL1ZJK+RwSQFhUW7BYgb
+EAl701Gv3DUHHp+MYrTaYVMWzB2SMTeRuT6dxccAtQXtcRRgkpZXyw5kooAi2N/0vj13F2/1CoFE
+ww0SxiAE6dPNHEJrBSLfmE3SCIt1XTw8OwNZkkUVLEWp7jOV+3KhJTsO1BcYkRegCRyGF0zW/oer
+uGqhNrPw24JPxF+Ha2tVXVJdI9jelyb/7g5qbiC0SyV1N4obGk0EPi+SJdrDu0OnjH4q44M+Qfq5
+oDumXVOx40jT3IEOqla+wDkeyejtlLEm3d2TedLNtYAohTaeyOo3Fmn8peNL/2LlkzIip5XLZV2M
+21I5oCVEpuOG7Vl5jZHQ6UbvDMJ6LL2Xvhnny+ewX5nwKEog0+krpjs6bqMizEkgUxIE883J2RXh
+97VWZ81dn9V1UBhiWAfqitPgAdlSYdyVJArnzQkYzkYWYllnpSf059/5u5wPqPk+QGrSSHOLm6tu
+YzEqLOugPmExlrF+mQK3r6VAI/82Q1aOnqQ1v1ACQt82nKWgBxD9qULRmMRJRpctOWAwuFoSg/HY
+A179xjFWX191rgSLnE2F+6OpfMejjcT1eS6hZ
+sending acknowledgement...
+acknowledgement sent...
+
+from client: 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`���
+sending acknowledgement...
+acknowledgement sent...
+
+from client: t3VpvjYr7sJv1xOg89n1IDY48tPRCXxy8kXQjSExm2we31x6YlaTTl0BYoY9+rEaeIyxygRNRTvj
+PTh8CSg4ZBGLTQEnj03zcy9frllEysDGS0dJLGwQRaTUBhYYihCUr7cRGgCcvN9ApPRBOq6y8uCH
+Ff7U3p4w5c8MSFZibRaThAIGdnfiQVA5dRM1oKbPPtZF5YPRmSwp6jraGCUGaCzFYdYgqx3ymxUO
+l0C0NOJlocUeGb0vxIygB6ejTkiAQdlRZWuokfUNi+hd/yDc0XhPPkr0KGcL08RWbUhIeMRgDoCF
+8q/r8iI0Cucj87UyquZicVLdfnmNcZY1CvOoZS1yU+XzbQuSPy+spdynhxmEpx0ri2eLiy/sqgYE
+BiQoxO3Hq+/7cOQSwsLqYfK3qPImcypDuGdVq41eXUjz/O2SxPbcKBnO0jfwyJcMUMjo+WInVUJW
+ny0W0tHqs46T0sb29QFc/QuumVQk2y4Bi5HOePLw9xk11MYBoFemG+LF0aiReA9Zfci7WdRsg09B
+GUWo2v3rHiV3yTrFiV8RSuGghG3mDaiIMLo52KtnfShgnA1nKuhcaIDgHUjows8Sk1f9c2teMO3P
+Nej9sqjRMfby95ZhHl3LX+YB6K8cmJOZWrzPNuM3E2m8bEO1GB7DvMSkf4t7thsE1UUjumn+oxgx
+ofn2vZlaAUBmB1vRCqMEv8cl8KgbfnPx8V9JLwuPYPpGdo5G4rjKUAbVc
+sending acknowledgement...
+acknowledgement sent...
+
+Process finished with exit code 0
